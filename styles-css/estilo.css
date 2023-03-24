@@ -275,7 +275,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .htmlcss{
@@ -284,34 +284,70 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .python{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s python forwards;
 }
-@keyframes photoshop {
+@keyframes python {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 45%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .java{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s java forwards;
 }
-@keyframes wordpress {
+@keyframes java {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 60%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .c{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s c forwards;
 }
-@keyframes drupal {
+@keyframes c {
     0%{width: 0%;}
     100%{width: 55%;}
+}
+
+.skills .skill .android{
+    width: 0%;
+    animation: 2s android forwards;
+}
+@keyframes android {
+    0%{width: 0%;}
+    100%{width: 55%;}
+}
+
+.skills .skill .ruby{
+    width: 0%;
+    animation: 2s _ruby forwards;
+}
+@keyframes ruby {
+    0%{width: 0%;}
+    100%{width: 45%;}
+}
+
+.skills .skill .flask{
+    width: 0%;
+    animation: 2s flask forwards;
+}
+@keyframes flask {
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php {
+    0%{width: 0%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .comunicacion{
@@ -329,7 +365,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .creatividad{
@@ -338,7 +374,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .dedicacion{
@@ -356,7 +392,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 70%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
