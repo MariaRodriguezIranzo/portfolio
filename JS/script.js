@@ -27,13 +27,15 @@ function efectoHabilidades(){
         habilidades[3].classList.add("java");
         habilidades[4].classList.add("c");
         habilidades[5].classList.add("android");
-        habilidades[6].classList.add("ruby");
+        habilidades[6].classList.add("_ruby");
         habilidades[7].classList.add("flask");
-        habilidades[8].classList.add("phpsqlmysqlmongodb");
-        habilidades[9].classList.add("trabajoenequipo");
-        habilidades[10].classList.add("creatividad");
-        habilidades[11].classList.add("dedicacion");
-        habilidades[12].classList.add("proyect");
+        habilidades[8].classList.add("php");
+        habilidades[9].classList.add("comunicacion");
+        habilidades[10].classList.add("trabajo");
+        habilidades[11].classList.add("creatividad");
+        habilidades[12].classList.add("espanol");
+        habilidades[13].classList.add("ingles");
+        habilidades[14].classList.add("catalan");
     }
 }
 

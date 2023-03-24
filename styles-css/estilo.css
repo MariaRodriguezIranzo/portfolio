@@ -323,11 +323,11 @@ html{
     100%{width: 55%;}
 }
 
-.skills .skill .ruby{
+.skills .skill ._ruby{
     width: 0%;
     animation: 2s _ruby forwards;
 }
-@keyframes ruby {
+@keyframes _ruby {
     0%{width: 0%;}
     100%{width: 45%;}
 }
@@ -377,22 +377,30 @@ html{
     100%{width: 80%;}
 }
 
-.skills .skill .dedicacion{
+.skills .skill .espanol{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s espanol forwards;
 }
-@keyframes dedicacion {
+@keyframes espanol {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 100%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .catalan{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s catalan forwards;
 }
-@keyframes proyect {
+@keyframes catalan {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 100%;}
+}
+.skills .skill .ingles{
+    width: 0%;
+    animation: 2s ingles forwards;
+}
+@keyframes ingles {
+    0%{width: 0%;}
+    100%{width: 50%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -559,7 +567,7 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(../../img/maps.png);
+    background-image: url(img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
