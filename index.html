@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | María</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">María</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="CV-MARIA.pdf" download=""> <button class="btn">Download CV <i
+                            class="uil uil-file-alt"></i></button></a>
+            </div>
+
+            <div class="toggle-container">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="toggle-label">
+                    <div class="toggle-icon">
+                    </div>
+                </label>
+            </div>
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+
+
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>María Rodríguez Iranzo</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Full Stack graduate passionate about front-end and design, actively seeking new projects and
+                            opportunities to grow as a developer.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="#contact">
+                            <button class="btn blue-btn">Hire Me</button>
+                        </a>
+
+                        <a href="CV-MARIA.pdf" download=""> <button class="btn">Download CV <i
+                                    class="uil uil-file-alt"></i></button></a>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://www.linkedin.com/in/mariarodrigueziranzo/" target="_blank" class="icon"><i
+                            class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/MariaRodriguezIranzo" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/img/me.png" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I'm a recently graduated full stack developer with experience in both back-end and
+                                front-end work. While I'm particularly passionate about design and front-end
+                                development, I'm proficient in both areas. Throughout my three years of training, I've
+                                gained self-taught experience in various technologies.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>Laravel</span>
+                                <span>Tailwind</span>
+                                <span>React</span>
+                                <span>Angular</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>PHP</span>
+                                <span>Python</span>
+                                <span>Express</span>
+                                <span>Node.js</span>
+                                <span>C#</span>
+                                <span>Java</span>
+                                <span>Ruby</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>PostgreSQL</span>
+                                <span>MongoDB</span>
+                                <span>MariaDB</span>
+                                <span>SQL</span>
+                                <span>PSQL</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Design</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="filters">
+                    <button class="filter-btn" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                </div>
+                <div class="project-container">
+                    <div class="project-box frontend">
+                        <img src="assets/img/portfolio-2.jpg" alt="">
+                        <a href="https://github.com" class="github-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="skills-list-proyect">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-box backend">
+                        <img src="assets/img/portfolio-2.jpg" alt="">
+                        <a href="https://github.com" class="github-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="skills-list-proyect">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-box backend">
+                        <h3>Project 3</h3>
+                        <img src="assets/img/portfolio-2.jpg" alt="">
+                        <a href="https://github.com" class="github-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <div class="skills-list-proyect">
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contact</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: mariarodira@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form action="https://formsubmit.co/mariarodira@gmail.com" method="POST">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" name="name" placeholder="Name">
+                                    <input type="email" class="input-field" name="email" placeholder="Email">
+                                    <input type="text" class="input-field" name="subject" placeholder="theme">
+                                </div>
+                                <div class="text-area">
+                                    <textarea name="mensaje" placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </div>
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+                            <input type="hidden" name="_captcha " value="false">
+                            <input type="hidden" name="_template" value="box">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.linkedin.com/in/mariarodrigueziranzo/" target="_blank" class="icon"><i
+                    class="uil uil-linkedin-alt"></i></a>
+                <a href="https://github.com/MariaRodriguezIranzo" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; María Rodríguez Iranzo - All rights reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
