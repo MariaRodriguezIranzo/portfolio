@@ -717,7 +717,8 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(255, 255, 255, 0.7);
+        background: var(--body-color);
+        color: var(--text-color-second);
         backdrop-filter: blur(20px);
         width: 100%;
         min-height: 450px;
@@ -824,5 +825,16 @@ footer{
     }
     .input-field{
         width: 100%;
+    }
+    .scroll-icon-box{
+        display: none;
+    }
+    .middle-footer .footer-menu{
+        flex-direction: column;
+        margin-left: -35px;
+    }
+    .bottom-footer{
+        flex-direction: column;
+        text-align: center;
     }
 }
